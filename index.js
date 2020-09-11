@@ -9,9 +9,9 @@ let index = 0,
 !(function e() {
   skillIndex === Skills.length && (skillIndex = 0);
   let l = (skill = Skills[skillIndex]).slice(0, ++index);
-  console.log(l),
+  //console.log(l),
     (document.querySelector(".type-text").textContent = l),
     l.length === skill.length
-      ? (skillIndex++, (index = 0), setTimeout(e, 2e3))
-      : setTimeout(e, 150);
+      ? (skillIndex++, (index = 0), setTimeout(e, 500))
+      : setTimeout(e, 100);
 })();
