@@ -14,9 +14,9 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: white; color: black;" >
 		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
-		<h5 class="navbar-brand">Portfolio</h5>
+		<h5 class="navbar-brand ml-3" style="color: black;">Portfolio</h5>
 		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -27,16 +27,16 @@
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li> -->
 				<li class="nav-item mr-2">
-					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#about" style="color: black;">About</a>
 				</li>
 				<li class="nav-item mr-2">
-					<a class="nav-link" href="#">Skills</a>
+					<a class="nav-link" href="#skills" style="color: black;">Skills</a>
 				</li>
 				<li class="nav-item mr-2">
-					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="#projects" style="color: black;">Projects</a>
 				</li>
 				<li class="nav-item mr-2">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="#contact" style="color: black;">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -52,7 +52,7 @@
 		<h2 class="mt-4 text-center">About</h2>
 		<hr style="width:80%">
 		<div class="row ">
-			<div class="col-md-4 col-12  center">
+			<div class="col-md-4 col-12 center" id="about">
 				<img src="./debanshu.jpg" class="img-fluid" alt="My Picture">
 			</div>
 			<div class="col-md-8 col-12">
@@ -68,7 +68,7 @@
 	</div>
 	<div class="container">
 		<div id="timeline" style="padding-top: 40px;">
-			<h2 class="text-center mt-4 ">My Skills</h2>
+			<h2 class="text-center mt-4" id="skills">My Skills</h2>
 			<hr style="width:60%">
 			<div class="timeline center mt-3">
 				<div class="Day1 center">
@@ -105,19 +105,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="card-container">
+		<div class="card-container" id="projects">
 			<div class="cards card-3">
 				<img src="./Capture2.PNG" alt="...">
 				<div class="card-body text-center">
 					<h5 class="card-title text-center">Responsive Food Junction</h5>
-					<p class="card-text text-center">Food Junction made using HTML,CSS,Javascript and Bootstrap
-						Framework with
-						the help of elements like carousels, navbars etc.</p>
-					<button class="mui-btn mui-btn--danger">Read More</button>
+					<p class="card-text text-center">Mobile Responsive Food Junction webpage made using Front-End Tools like HTML,CSS and frameworks like 
+					 Bootstrap 4.	
+					</p>
+					<a class="mui-btn mui-btn--primary" href="https://github.com/debanshu08/Food-Junction">View on Github</a>
 				</div>
 			</div>
 			<div class="cards card-1">
-				<img src="./Capture.PNG" alt="...">
+				<img src="./gsranchi1.PNG" alt="GirlScript-Ranchi Website Image">
 				<div class="card-body text-center">
 					<h5 class="card-title text-center">Girlscript Ranchi <!--Chapter--> Website</h5>
 					<p class="card-text text-center">Girlscript Ranchi Website designed and developed from scratch using
@@ -131,15 +131,41 @@
 					<h5 class="card-title text-center">Simple Interest Calculator</h5>
 					<p class="card-text text-center">
 						<!--Simple Interest Calculator made using HTML, CSS and Javascript.-->
-						The use of DOM methods like getElementById, innerHTML used. On entering principle amount, rate
-						and time.
-						Interest is displayed.</p>
-					<button class="mui-btn mui-btn--danger">Read More</button>
+						Calculator to display the Simple Interest using HTML and Javascript using element selectors and DOM manipulations. 
+						</p>
+					<a class="mui-btn mui-btn--primary">View On Github</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!---Footer-->
+	
+    <footer style="color: black; background-color: rgba(255, 255, 255, 0.808)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+					<h4 class="text-center mt-3" id="contact">Get in Touch</h4>
+					<div class="mt-2">
+                            <a style="color: black;" href="https://github.com/debanshu08" class="fab fa-2x fa-github-square m-1"></a>
+                            <a style="color: black;" href="mailto:debanshumutt1882000@gmail.com" class="fas fa-2x fa-envelope m-1"></a>
+                            <a style="color: black;" href="https://www.linkedin.com/in/debanshu-mutt-9045821a2/"
+                                class="fab fa-2x fa-linkedin m-1"></a>
+                            <a style="color: black;" href="https://www.hackerrank.com/debanshumutt1881"
+                                class="fab fa-2x fa-hackerrank m-1"></a>
+                </div>
+				</div>
+			</div>
+			<hr style="background-color:#e9e3e3c9;">
+			<div class="row">
+                <div class="col-md-12 text-center">
+					<!-- <h5>Made with Love by Debanshu Mutt</h5> -->
+					<p style="font-size:1.2em;">  <strong>Copyright &copy; 2020 Debanshu Mutt </strong></p>
+					<p style="font-size: 1.1em;">All Rights Reserved</p>
+				</div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
 	<!-- Footer -->
 
 
