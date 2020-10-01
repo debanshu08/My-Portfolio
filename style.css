@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 html,
 body {
     width: 100%;
@@ -6,7 +9,11 @@ body {
 body {
     background: #dde1e7;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 .center {
     display: flex;
     flex-direction: column;
